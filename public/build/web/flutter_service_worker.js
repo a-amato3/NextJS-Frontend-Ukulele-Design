@@ -14,38 +14,28 @@ const RESOURCES = {
   "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
   "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
   "manifest.json": "cf4192548b97472e1779c023d4efeb18",
-  "/build/web/assets/AssetManifest.json": "893ee83494f6445b5a4ec6d3882315e0",
-  "assets/assets/NOTICES": "8310bd21b03668bd798fcc2ccc48d80d",
-  "/build/web/assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
-  "assets/assets/packages/cupertino_icons/assets/CupertinoIcons.ttf":
+  "assets/AssetManifest.json": "893ee83494f6445b5a4ec6d3882315e0",
+  "assets/NOTICES": "8310bd21b03668bd798fcc2ccc48d80d",
+  "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
+  "packages/cupertino_icons/assets/CupertinoIcons.ttf":
     "6d342eb68f170c97609e9da345464e5e",
-  "assets/assets/packages/flutter_dropzone_web/assets/flutter_dropzone.js":
+  "packages/flutter_dropzone_web/assets/flutter_dropzone.js":
     "0266ef445553f45f6e45344556cfd6fd",
-  "assets/assets/fonts/MaterialIcons-Regular.otf":
-    "95db9098c58fd6db106f1116bae85a0b",
-  "assets/assets/assets/pattern_1.png": "58079da4284a0dd93fc6e5e88a6e66be",
-  "assets/assets/assets/uke_base_solid_2.jpg":
-    "22d75980e940227e1dcd8f44a6b311f1",
-  "assets/assets/assets/uke_full.png": "8c33239b81d2eac77aff8d94edcbca28",
-  "assets/assets/assets/uke_full_outline.png":
-    "04c72c776bb49289e6039e371474f85f",
-  "assets/assets/assets/uke_base_cutout_4.png":
-    "c23ef6063cf007c63c191547d5634b1d",
-  "assets/assets/assets/uke_1.png": "2322344e2404c0158bf2df58a50d4eca",
-  "assets/assets/assets/uke_outline.png": "4770044f3fc44d36e00900ee93b14ff3",
-  "assets/assets/assets/uke_base_cutout_3.png":
-    "b32b8e0a7e560f0c5b241bc019c09cfd",
-  "assets/assets/assets/uke_base_solid.png": "b6b1902f8881ec407ba66e985c140e0d",
-  "assets/assets/assets/uke_base_outline_2.png":
-    "c42eabf2ad198dbd39cc3bf925cd98d3",
-  "assets/assets/assets/uke_base_cutout.png":
-    "24036939701950fae31ea2c7ce3fed50",
-  "assets/assets/assets/uke_base_cutout.jpg":
-    "d4e48a1e3ce826834a80419398d34330",
-  "assets/assets/assets/uke_stem_and_strings.png":
-    "fcb36dfb93653250d34f4b3180a4856e",
-  "assets/assets/assets/uke_base_outline.png":
-    "031892c583e6db64d4977fdcdfb4e689",
+  "fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
+  "assets/assets/pattern_1.png": "58079da4284a0dd93fc6e5e88a6e66be",
+  "assets/assets/uke_base_solid_2.jpg": "22d75980e940227e1dcd8f44a6b311f1",
+  "assets/assets/uke_full.png": "8c33239b81d2eac77aff8d94edcbca28",
+  "assets/assets/uke_full_outline.png": "04c72c776bb49289e6039e371474f85f",
+  "assets/assets/uke_base_cutout_4.png": "c23ef6063cf007c63c191547d5634b1d",
+  "assets/assets/uke_1.png": "2322344e2404c0158bf2df58a50d4eca",
+  "assets/assets/uke_outline.png": "4770044f3fc44d36e00900ee93b14ff3",
+  "assets/assets/uke_base_cutout_3.png": "b32b8e0a7e560f0c5b241bc019c09cfd",
+  "assets/assets/uke_base_solid.png": "b6b1902f8881ec407ba66e985c140e0d",
+  "assets/assets/uke_base_outline_2.png": "c42eabf2ad198dbd39cc3bf925cd98d3",
+  "assets/assets/uke_base_cutout.png": "24036939701950fae31ea2c7ce3fed50",
+  "assets/assets/uke_base_cutout.jpg": "d4e48a1e3ce826834a80419398d34330",
+  "assets/assets/uke_stem_and_strings.png": "fcb36dfb93653250d34f4b3180a4856e",
+  "assets/assets/uke_base_outline.png": "031892c583e6db64d4977fdcdfb4e689",
   "canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
   "canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
   "canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",

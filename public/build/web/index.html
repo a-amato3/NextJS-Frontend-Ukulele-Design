@@ -14,7 +14,7 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
-    <base href="/" />
+    <base href="/build/web/" />
 
     <meta charset="UTF-8" />
     <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
@@ -50,7 +50,6 @@
         var scriptTag = document.createElement("script");
         scriptTag.src = "/build/web/main.dart.js";
         scriptTag.type = "application/javascript";
-        // document.getElementById("flutterPreview").append(scriptTag);
         document.body.append(scriptTag);
       }
 
@@ -90,15 +89,16 @@
 
           // If service worker doesn't succeed in a reasonable amount of time,
           // fallback to plaint <script> tag.
-          setTimeout(() => {
-            if (!scriptLoaded) {
-              console.warn(
-                "Failed to load app from service worker. Falling back to plain <script> tag."
-              );
-              loadMainDartJs();
-            }
-          }, 4000);
+          // setTimeout(() => {
+          //   if (!scriptLoaded) {
+          //     console.warn(
+          //       "Failed to load app from service worker. Falling back to plain <script> tag."
+          //     );
+          //     loadMainDartJs();
+          //   }
+          // }, 5000);
         });
+        loadMainDartJs();
       } else {
         // Service workers not supported. Just drop the <script> tag.
         loadMainDartJs();
